@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".laminates"
+            android:exported="false" />
+        <activity
+            android:name=".woods"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity
@@ -24,11 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
