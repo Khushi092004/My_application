@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cpu">
+        <item>Oak Wood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="cpu_prices">
+        <item>₹510</item>
+        <item>₹1,260</item>
+        <item>₹4,200</item>
+    </string-array>
+
+    <string-array name="gpu">
+        <item>Teak Wood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="gpu_prices">
+        <item>₹610</item>
+        <item>₹1,860</item>
+        <item>₹6,200</item>
+    </string-array>
+
+    <string-array name="ram">
+        <item>Pine Wood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="ram_prices">
+        <item>₹410</item>
+        <item>₹1,160</item>
+        <item>₹3,200</item>
+    </string-array>
+
+
+    <string-array name="mb">
+        <item>Walnut Wood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="mb_prices">
+        <item>₹710</item>
+        <item>₹2,160</item>
+        <item>₹8,200</item>
+    </string-array>
+
+    <string-array name="ssd">
+        <item>RedWood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="ssd_prices">
+        <item>₹710</item>
+        <item>₹1,960</item>
+        <item>₹7,200</item>
+    </string-array>
+
+    <string-array name="psu">
+        <item>Yew Wood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="psu_prices">
+        <item>₹410</item>
+        <item>₹1,160</item>
+        <item>₹3,200</item>
+    </string-array>
+
+    <string-array name="pcase">
+        <item>Ash Wood</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="case_prices">
+        <item>₹710</item>
+        <item>₹2,160</item>
+        <item>₹8,200</item>
+    </string-array>
+
+</resources>
