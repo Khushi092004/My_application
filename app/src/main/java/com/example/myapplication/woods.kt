@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -168,5 +169,35 @@ class woods : AppCompatActivity() {
                 // Handle case when nothing is selected
             }
         }
+
+        completeButton.setOnClickListener {
+            val selectedProcessor = spinner1.selectedItem.toString()
+            val selectedGraphicsCard = spinner2.selectedItem.toString()
+            val selectedRAM = spinner3.selectedItem.toString()
+            val selectedMotherboard = spinner4.selectedItem.toString()
+            val selectedSSD = spinner5.selectedItem.toString()
+            val selectedPowerSupply = spinner6.selectedItem.toString()
+            val selectedCabinet = spinner7.selectedItem.toString()
+
+            if (selectedProcessor == "Processors" || selectedGraphicsCard == "Graphics Cards" || selectedRAM == "Ram" ||
+                selectedMotherboard == "MotherBoard" || selectedSSD == "SSD" || selectedPowerSupply == "Power Supply" ||
+                selectedCabinet == "Cabinet") {
+                Toast.makeText(this@woods, "Please complete the build by selecting options for all components.", Toast.LENGTH_SHORT).show()
+            } else {
+                val intent = Intent(this@woods, Report::class.java)
+                intent.putExtra("Processor", selectedProcessor)
+                intent.putExtra("GraphicsCard", selectedGraphicsCard)
+                intent.putExtra("RAM", selectedRAM)
+                intent.putExtra("Motherboard", selectedMotherboard)
+                intent.putExtra("SSD", selectedSSD)
+                intent.putExtra("PowerSupply", selectedPowerSupply)
+                intent.putExtra("Cabinet", selectedCabinet)
+                intent.putExtra("TotalPrice", totalPrice) // Assuming totalPrice is an integer
+                startActivity(intent)
+            }
+        }
+
+
+
     }
 }
