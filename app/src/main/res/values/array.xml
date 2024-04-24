@@ -93,4 +93,102 @@
         <item>₹8,200</item>
     </string-array>
 
+
+
+
+
+    <string-array name="icpu">
+        <item>Matte-Finish</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="icpu_prices">
+        <item>₹510</item>
+        <item>₹1,260</item>
+        <item>₹4,200</item>
+    </string-array>
+
+    <string-array name="igpu">
+        <item>Gloss-finish</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="igpu_prices">
+        <item>₹610</item>
+        <item>₹1,860</item>
+        <item>₹6,200</item>
+    </string-array>
+
+    <string-array name="iram">
+        <item>Textured</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="iram_prices">
+        <item>₹410</item>
+        <item>₹1,160</item>
+        <item>₹3,200</item>
+    </string-array>
+
+
+    <string-array name="imb">
+        <item>Metallic</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="imb_prices">
+        <item>₹710</item>
+        <item>₹2,160</item>
+        <item>₹8,200</item>
+    </string-array>
+
+    <string-array name="issd">
+        <item>PVC-Finish</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="issd_prices">
+        <item>₹710</item>
+        <item>₹1,960</item>
+        <item>₹7,200</item>
+    </string-array>
+
+    <string-array name="ipsu">
+        <item>Acrylic-finish</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="ipsu_prices">
+        <item>₹410</item>
+        <item>₹1,160</item>
+        <item>₹3,200</item>
+    </string-array>
+
+    <string-array name="ipcase">
+        <item>Anti-bacterial</item>
+        <item>2 Boards</item>
+        <item>6 Boards</item>
+        <item>20 Boards</item>
+    </string-array>
+
+    <string-array name="icase_prices">
+        <item>₹710</item>
+        <item>₹2,160</item>
+        <item>₹8,200</item>
+    </string-array>
+
+
+
 </resources>

@@ -17,12 +17,12 @@ class MainActivity : AppCompatActivity() {
         // Set click listeners for the ImageViews
         imageButton1.setOnClickListener {
             // Handle redirection for button 1
-            startActivity(Intent(this, laminates::class.java))
+            startActivity(Intent(this, woods::class.java))
         }
 
         imageButton2.setOnClickListener {
             // Handle redirection for button 2
-            startActivity(Intent(this, woods::class.java))
+            startActivity(Intent(this, laminates::class.java))
         }
     }
 }
